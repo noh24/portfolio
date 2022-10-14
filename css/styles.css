@@ -23,6 +23,11 @@ ul {
   padding-left: 0;
   text-align: left;
 }
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: left;
+}
 li {
   margin: 10px 0;
 }
@@ -102,6 +107,7 @@ li {
   align-items: center;
   color: rgb(207, 205, 205);
   padding: 20px;
+  margin: 20px;
 }
 .resume-heading {
   border: 2px solid;
@@ -132,5 +138,56 @@ li {
 .resume-link {
   background-color: rgb(207, 94, 59, 0.507);
   padding: 5px 15px;
-  border-radius: 15px;;
+  border-radius: 15px;
 }
+.resume-link:hover {
+  background-color: rgb(124, 89, 89);
+}
+/* Projects  */
+#project {
+  border: 2px solid;
+  color: rgb(207, 205, 205);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px
+}
+.project-container {
+  border: 2px solid; 
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+}
+.project-heading {
+  border: 2px solid;
+  margin: 20px;
+  padding: 20px;
+  width: 50%;
+  background-color: rgba(207, 94, 59, 0.507);
+  border-radius: 15px;
+}
+.project1,
+.project2 {
+  border: 2px solid;
+  background-color:rgba(207, 94, 59, 0.507);
+  border-radius: 15px;
+  height: 600px;
+  display: flex;
+  flex-flow: column;
+  margin: 30px;
+  padding: 30px;
+}
+.recipes,
+.poke-toki {
+  width: 450px;
+  height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+.recipes:hover,
+.poke-toki:hover {
+  box-shadow: 1px 1px 2px .5px rgba(243, 244, 245, 0.5);
+}
+
