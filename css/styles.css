@@ -36,7 +36,7 @@ li {
 .container {
   width: 80%;
   margin: auto;
-  background: linear-gradient(to right, rgba(61, 138, 253, 0.473), rgba(207, 94, 59, 0.562), rgba(0, 140, 255, 0.486));
+  background: linear-gradient(to right, rgba(158, 68, 40, 0.562), rgba(0, 140, 255, 0.486), rgba(158, 68, 40, 0.562));
 }
 /* navigation bar */
 .nav-bar {
@@ -58,7 +58,7 @@ li {
 }
 /* header */
 .header {
-  margin-top: 50px;
+  margin-top: 35px;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -199,7 +199,7 @@ li {
 .facts-container {
   margin: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;;
   border-radius: 15px;
   width: 85%;
 }
