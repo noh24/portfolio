@@ -3,7 +3,6 @@
   src: url(../raleway/Raleway-Black.ttf);
 }
 body {
-  border: 2px solid;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,14 +34,12 @@ li {
   margin: 10px 0;
 }
 .container {
-  border: 2px solid;
   width: 80%;
   margin: auto;
   background: linear-gradient(to right, rgba(61, 138, 253, 0.473), rgba(207, 94, 59, 0.562), rgba(0, 140, 255, 0.486));
 }
 /* navigation bar */
 .nav-bar {
-  border: 2px solid;
   background: linear-gradient(to right, rgba(61, 138, 253, 0.664), rgba(207, 94, 59, 0.781), rgba(0, 140, 255, 0.699));
   display: flex;
   justify-content: center;
@@ -53,7 +50,6 @@ li {
   height: 35px;
 }
 .nav-center {
-  border: 2px solid;
   display: flex;
   justify-content: space-around;
   width: 50%;
@@ -62,14 +58,12 @@ li {
 }
 /* header */
 .header {
-  border: 2px solid;
   margin-top: 50px;
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 .header-container {
-  border: 2px solid;
   width: 50%;
   display: flex;
   flex-flow: column;
@@ -88,13 +82,11 @@ li {
 }
 /* about  */
 #about {
-  border: 2px solid;
   display: flex;
   justify-content: center;
   padding: 20px
 }
 .about-container {
-  border: 2px solid;
   background-color: rgba(207, 94, 59, 0.507);
   border-radius: 15px;
   display: flex;
@@ -105,7 +97,6 @@ li {
 }
 /* Resume */
 #resume {
-  border: 2px solid;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -114,7 +105,6 @@ li {
   margin: 20px;
 }
 .resume-heading {
-  border: 2px solid;
   background-color: rgba(0, 140, 255, 0.432);
   border-radius: 15px;
   width: 50%;
@@ -122,7 +112,6 @@ li {
   text-align: center;
 }
 .resume-container {
-  border: 2px solid;
   display: flex;
   justify-content: space-around;
   gap: 10px;
@@ -150,21 +139,18 @@ li {
 }
 /* Projects  */
 #project {
-  border: 2px solid;
   display: flex;
   flex-flow: column;
   align-items: center;
   text-align: center;
   margin: 20px
 }
-.project-container {
-  border: 2px solid; 
+.project-container { 
   display: flex;
   padding: 10px;
   margin: 20px;
 }
 .project-heading {
-  border: 2px solid;
   margin: 20px;
   padding: 20px;
   width: 50%;
@@ -173,7 +159,6 @@ li {
 }
 .project1,
 .project2 {
-  border: 2px solid;
   background-color:rgba(207, 94, 59, 0.507);
   border-radius: 15px;
   height: 600px;
@@ -196,15 +181,13 @@ li {
 }
 /* Fun facts */
 #fun-facts {
-  border: 2px solid;
-  margin: 20px 20px 60px;
+  margin: 20px 20px 100px;
   color: rgb(207, 205, 205);
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 .facts-heading {
-  border: 2px solid;
   background-color: rgba(0, 140, 255, 0.432);
   border-radius: 15px;
   display: flex;
@@ -214,7 +197,6 @@ li {
   width: 50%;
 }
 .facts-container {
-  border: 2px solid;
   margin: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -223,15 +205,27 @@ li {
 }
 .hobbies,
 .skills {
-  border: 2px solid;
   background-color: rgba(0, 140, 255, 0.432);
   border-radius: 15px;
   margin: 20px 50px;
   padding: 20px 30px;
 }
+/* easter-egg */
+.easter-container {
+  padding: 50px;
+  margin-top: -30px;
+}
+.poro {
+  width: 50px;
+}
+.poro:hover {
+  transform: scale(3);
+}
+.easter-egg {
+  float: right;
+}
 /* Footer + Icons */
 .footer {
-  border: 2px solid;
   color: white;
   background: linear-gradient(to right, rgba(61, 138, 253, 0.664), rgba(207, 94, 59, 0.781), rgba(0, 140, 255, 0.699));
   display: flex;
@@ -240,16 +234,15 @@ li {
   position: fixed;
   bottom: 0;
   width: 80%;
-  height: 30px;
+  height: 35px;
 }
 .follow {
-  border: 2px solid;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 30px;
   margin: 0 5px;
+  height: 35px;
   gap: 50px;
 }
 .fa {
