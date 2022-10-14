@@ -20,8 +20,9 @@ This webpage will inform users of the product called Brian Noh. Users can expect
 
 ## Setup/Installation Requirements
 * Clone this repository to your desktop.
-* Open the file labeled index.html on your browser.
-* Access all information through navigation bar or scrolling down.
+* Access your file explorer.
+* Open the file labeled index.html onto your browser.
+* Access all information through navigation bar(up top) or by scrolling down.
 
 ## Known bugs
 * _No known bugs_.
