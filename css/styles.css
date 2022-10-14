@@ -1,0 +1,39 @@
+body {
+  border: 2px solid;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(../img/body-bg.png);
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  border: 2px solid;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+.nav-bar {
+  border: 2px solid;
+  background-color: rgba(0, 0, 255, 0.336);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  margin: 0;
+  padding: 1px;
+  width: 80%;
+}
+.nav-center {
+  border: 2px solid;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding: 5px;
+}
+.header {
+  border: 2px solid;
+}
