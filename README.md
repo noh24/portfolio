@@ -10,6 +10,7 @@ License information with a copyright and date -->
 # Portfolio Landing Page
 By Brian Noh
 Epicodus Independent Project: Portfolio Landing Page.  
+[Portfolio Page](https://noh24.github.io/portfolio/)
 
 ## Technologies Used  
 * HTML
