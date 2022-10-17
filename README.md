@@ -33,5 +33,5 @@ _Pull requests are welcome. For major changes, please open an issue first to dis
 Feel free to contact me through <noh24@ymail.com>.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/) License  
+[MIT](./license.txt) License  
 Copyright (c) _2022 Brian Noh_
